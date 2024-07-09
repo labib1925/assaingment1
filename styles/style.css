@@ -1,3 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* font */
 .azert-mono {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -21,17 +31,91 @@ nav {
     line-height: 33px;
     letter-spacing: 0%;
     text-align: left;
+    padding: 50px 150px;
 }
 
-.btn-primary {
+.nav-button {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
     opacity: 0.8;
-    width: 228px;
-    height: 58px;
-    left: 1046px;
-    top: 38px;
     padding: 17px 24px 17px 24px;
+    text-decoration: none;
+}
+
+nav {
+    padding-right: 166px;
+}
+
+.btn-container {
+    text-align: center;
+
+}
+
+.btn {
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+  margin-bottom: 44px;
+
+}
+
+/* hero section */
+#hero {
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero-content .hero-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#hero .hero-content .desc {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#hero .hero-content .hero1 {
+    margin-top: 26px;
+    margin-bottom: 32px;
 
 }
