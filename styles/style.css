@@ -267,6 +267,7 @@ nav {
     justify-content: space-evenly;
     gap: 24px;
     margin-bottom: 111px;
+    text-decoration: none;
 
 }
 
@@ -402,6 +403,44 @@ nav {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.subject-1 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
+
+}
+
+.subject-2 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
+
+}
+
+.subject-3 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
 }
 
 /* fotter style */
