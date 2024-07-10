@@ -70,7 +70,22 @@ nav {
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-  margin-bottom: 44px;
+    margin-bottom: 44px;
+
+}
+
+.btn-primary {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 
 }
 
@@ -118,4 +133,282 @@ nav {
     margin-top: 26px;
     margin-bottom: 32px;
 
+}
+
+/* shared styles */
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 48px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+
+}
+
+/* why web dev section */
+.why-web-dev {
+    text-align: center;
+    margin-top: 74px;
+}
+
+.dev-wrapper {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 96px;
+}
+
+.banner-content {
+    display: flex;
+    max-width: 946px;
+    margin: 48px auto;
+    box-shadow: 0px 4px 4px 0px #d1cfcf5e;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+
+.bnner-1 {
+    max-width: 946px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.wd-title {
+    margin-bottom: 16px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.p-title-1 {
+    margin-bottom: 32px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+
+}
+
+/* 2nd banner content  */
+
+.wd-title-2 {
+    margin-bottom: 16px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.p-title-2 {
+    margin-bottom: 32px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+
+
+}
+
+.if {
+    text-align: center;
+}
+
+/* subject section */
+.pt-title {
+    text-align: left;
+}
+
+.why-web-dev-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-bottom: 111px;
+
+}
+
+.subject-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pt-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.subject-1 {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.subject-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.subject-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+/* i need support section */
+.support {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 48px 64px;
+    border-radius: 16px;
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgba(43, 36, 36, 0.342);
+    margin-bottom: 79px;
+}
+
+.support h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.support p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 82px;
+
+
+}
+
+.input-wrapper {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.input-wrapper input {
+    min-width: 548px;
+    padding: 16px 20px;
+    border-radius: 6px;
+    border: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.input-wrapper button {
+    padding: 16px 20px;
+    border-radius: 6px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* fotter style */
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
